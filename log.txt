@@ -1,0 +1,1107 @@
+
+> mazeVR@0.0.2 dev /Projects/mozilla/aframe/aframe-lesson
+> node ./scripts/budo
+
+[0000] info  Server running at http://172.16.42.165:9005/ (connect)
+[0000] info  LiveReload running on 35729
+[0000] 50ms       1803B (browserify)
+
+/Projects/mozilla/aframe/aframe-lesson/examples/linkTraversal/js/VRControls.js
+    6:1   error  "THREE" is not defined                                  no-undef
+    6:30  error  There should be no spaces inside this paren             space-in-parens
+    6:48  error  There should be no spaces inside this paren             space-in-parens
+    6:49  error  Block must not be padded by blank lines                 padded-blocks
+    8:2   error  Expected indentation of 2 space characters but found 0  indent
+   10:2   error  Expected indentation of 2 space characters but found 0  indent
+   12:2   error  Expected indentation of 2 space characters but found 0  indent
+   12:27  error  "THREE" is not defined                                  no-undef
+   14:2   error  Expected indentation of 2 space characters but found 0  indent
+   16:2   error  Expected indentation of 2 space characters but found 0  indent
+   16:6   error  There should be no spaces inside this paren             space-in-parens
+   16:32  error  There should be no spaces inside this paren             space-in-parens
+   16:33  error  Block must not be padded by blank lines                 padded-blocks
+   18:3   error  Expected indentation of 2 space characters but found 0  indent
+   18:19  error  "VRFrameData" is not defined                            no-undef
+   20:3   error  Block must not be padded by blank lines                 padded-blocks
+   22:2   error  Expected indentation of 2 space characters but found 0  indent
+   22:24  error  Missing space before function parentheses               space-before-function-paren
+   22:25  error  There should be no spaces inside this paren             space-in-parens
+   22:36  error  There should be no spaces inside this paren             space-in-parens
+   22:37  error  Block must not be padded by blank lines                 padded-blocks
+   24:3   error  Expected indentation of 2 space characters but found 0  indent
+   26:3   error  Expected indentation of 2 space characters but found 0  indent
+   26:7   error  There should be no spaces inside this paren             space-in-parens
+   26:29  error  There should be no spaces inside this paren             space-in-parens
+   26:30  error  Block must not be padded by blank lines                 padded-blocks
+   28:4   error  Expected indentation of 2 space characters but found 0  indent
+   30:4   error  Block must not be padded by blank lines                 padded-blocks
+   30:10  error  Block must not be padded by blank lines                 padded-blocks
+   32:4   error  Expected indentation of 2 space characters but found 0  indent
+   32:8   error  There should be no spaces inside this paren             space-in-parens
+   32:18  error  There should be no spaces inside this paren             space-in-parens
+   32:27  error  There should be no spaces inside this paren             space-in-parens
+   32:55  error  There should be no spaces inside this paren             space-in-parens
+   34:4   error  Block must not be padded by blank lines                 padded-blocks
+   36:3   error  Block must not be padded by blank lines                 padded-blocks
+   38:2   error  Expected indentation of 2 space characters but found 0  indent
+   38:6   error  There should be no spaces inside this paren             space-in-parens
+   38:32  error  There should be no spaces inside this paren             space-in-parens
+   38:33  error  Block must not be padded by blank lines                 padded-blocks
+   40:3   error  Expected indentation of 2 space characters but found 0  indent
+   40:34  error  There should be no spaces inside this paren             space-in-parens
+   40:50  error  There should be no spaces inside this paren             space-in-parens
+   40:57  error  There should be no spaces inside this paren             space-in-parens
+   40:70  error  Block must not be padded by blank lines                 padded-blocks
+   42:4   error  Expected indentation of 2 space characters but found 0  indent
+   42:17  error  There should be no spaces inside this paren             space-in-parens
+   42:65  error  There should be no spaces inside this paren             space-in-parens
+   44:4   error  Block must not be padded by blank lines                 padded-blocks
+   44:6   error  There should be no spaces inside this paren             space-in-parens
+   46:3   error  Block must not be padded by blank lines                 padded-blocks
+   52:2   error  Expected indentation of 2 space characters but found 0  indent
+   56:2   error  Expected indentation of 2 space characters but found 0  indent
+   60:2   error  Expected indentation of 2 space characters but found 0  indent
+   62:2   error  Expected indentation of 2 space characters but found 0  indent
+   62:34  error  Block must not be padded by blank lines                 padded-blocks
+   64:3   error  Expected indentation of 2 space characters but found 0  indent
+   66:3   error  Block must not be padded by blank lines                 padded-blocks
+   68:2   error  Expected indentation of 2 space characters but found 0  indent
+   68:32  error  There should be no spaces inside this paren             space-in-parens
+   68:40  error  There should be no spaces inside this paren             space-in-parens
+   68:41  error  Block must not be padded by blank lines                 padded-blocks
+   70:3   error  Expected indentation of 2 space characters but found 0  indent
+   72:3   error  Block must not be padded by blank lines                 padded-blocks
+   74:2   error  Expected indentation of 2 space characters but found 0  indent
+   74:35  error  Block must not be padded by blank lines                 padded-blocks
+   76:3   error  Expected indentation of 2 space characters but found 0  indent
+   76:16  error  There should be no spaces inside this paren             space-in-parens
+   76:75  error  There should be no spaces inside this paren             space-in-parens
+   77:3   error  Expected indentation of 2 space characters but found 0  indent
+   79:3   error  Block must not be padded by blank lines                 padded-blocks
+   81:2   error  Expected indentation of 2 space characters but found 0  indent
+   81:39  error  Block must not be padded by blank lines                 padded-blocks
+   83:3   error  Expected indentation of 2 space characters but found 0  indent
+   85:3   error  Block must not be padded by blank lines                 padded-blocks
+   87:2   error  Expected indentation of 2 space characters but found 0  indent
+   87:28  error  Block must not be padded by blank lines                 padded-blocks
+   89:3   error  Expected indentation of 2 space characters but found 0  indent
+   89:7   error  There should be no spaces inside this paren             space-in-parens
+   89:19  error  There should be no spaces inside this paren             space-in-parens
+   89:20  error  Block must not be padded by blank lines                 padded-blocks
+   91:4   error  Expected indentation of 2 space characters but found 0  indent
+   93:4   error  Expected indentation of 2 space characters but found 0  indent
+   93:8   error  There should be no spaces inside this paren             space-in-parens
+   93:33  error  There should be no spaces inside this paren             space-in-parens
+   93:34  error  Block must not be padded by blank lines                 padded-blocks
+   95:5   error  Expected indentation of 2 space characters but found 0  indent
+   95:28  error  There should be no spaces inside this paren             space-in-parens
+   95:40  error  There should be no spaces inside this paren             space-in-parens
+   96:5   error  Expected indentation of 2 space characters but found 0  indent
+   98:5   error  Block must not be padded by blank lines                 padded-blocks
+   98:15  error  There should be no spaces inside this paren             space-in-parens
+   98:35  error  There should be no spaces inside this paren             space-in-parens
+   98:36  error  Block must not be padded by blank lines                 padded-blocks
+  100:5   error  Expected indentation of 2 space characters but found 0  indent
+  102:5   error  Block must not be padded by blank lines                 padded-blocks
+  104:4   error  Expected indentation of 2 space characters but found 0  indent
+  104:8   error  There should be no spaces inside this paren             space-in-parens
+  104:36  error  There should be no spaces inside this paren             space-in-parens
+  104:37  error  Block must not be padded by blank lines                 padded-blocks
+  106:5   error  Expected indentation of 2 space characters but found 0  indent
+  106:33  error  There should be no spaces inside this paren             space-in-parens
+  106:52  error  There should be no spaces inside this paren             space-in-parens
+  108:5   error  Block must not be padded by blank lines                 padded-blocks
+  110:4   error  Expected indentation of 2 space characters but found 0  indent
+  110:8   error  There should be no spaces inside this paren             space-in-parens
+  110:33  error  There should be no spaces inside this paren             space-in-parens
+  110:34  error  Block must not be padded by blank lines                 padded-blocks
+  112:5   error  Expected indentation of 2 space characters but found 0  indent
+  112:31  error  There should be no spaces inside this paren             space-in-parens
+  112:47  error  There should be no spaces inside this paren             space-in-parens
+  114:5   error  Block must not be padded by blank lines                 padded-blocks
+  114:11  error  Block must not be padded by blank lines                 padded-blocks
+  116:5   error  Expected indentation of 2 space characters but found 0  indent
+  116:25  error  There should be no spaces inside this paren             space-in-parens
+  116:35  error  There should be no spaces inside this paren             space-in-parens
+  118:5   error  Block must not be padded by blank lines                 padded-blocks
+  120:4   error  Expected indentation of 2 space characters but found 0  indent
+  120:8   error  There should be no spaces inside this paren             space-in-parens
+  120:24  error  There should be no spaces inside this paren             space-in-parens
+  120:25  error  Block must not be padded by blank lines                 padded-blocks
+  122:5   error  Expected indentation of 2 space characters but found 0  indent
+  122:9   error  There should be no spaces inside this paren             space-in-parens
+  122:37  error  There should be no spaces inside this paren             space-in-parens
+  122:38  error  Block must not be padded by blank lines                 padded-blocks
+  124:6   error  Expected indentation of 2 space characters but found 0  indent
+  126:6   error  Expected indentation of 2 space characters but found 0  indent
+  126:31  error  There should be no spaces inside this paren             space-in-parens
+  126:86  error  There should be no spaces inside this paren             space-in-parens
+  127:6   error  Expected indentation of 2 space characters but found 0  indent
+  127:25  error  There should be no spaces inside this paren             space-in-parens
+  127:42  error  There should be no spaces inside this paren             space-in-parens
+  129:6   error  Block must not be padded by blank lines                 padded-blocks
+  129:12  error  Block must not be padded by blank lines                 padded-blocks
+  131:6   error  Expected indentation of 2 space characters but found 0  indent
+  131:27  error  There should be no spaces inside this paren             space-in-parens
+  131:65  error  There should be no spaces inside this paren             space-in-parens
+  133:6   error  Block must not be padded by blank lines                 padded-blocks
+  135:5   error  Block must not be padded by blank lines                 padded-blocks
+  137:4   error  Expected indentation of 2 space characters but found 0  indent
+  137:35  error  There should be no spaces inside this paren             space-in-parens
+  137:49  error  There should be no spaces inside this paren             space-in-parens
+  139:4   error  Block must not be padded by blank lines                 padded-blocks
+  141:3   error  Block must not be padded by blank lines                 padded-blocks
+  143:2   error  Expected indentation of 2 space characters but found 0  indent
+  143:29  error  Block must not be padded by blank lines                 padded-blocks
+  145:3   error  Expected indentation of 2 space characters but found 0  indent
+  147:3   error  Block must not be padded by blank lines                 padded-blocks
+  149:2   error  Block must not be padded by blank lines                 padded-blocks
+
+/Projects/mozilla/aframe/aframe-lesson/examples/linkTraversal/lib/three.js
+    2:2    error  Expected indentation of 2 space characters but found 0           indent
+    2:83   error  ':' should be placed at the beginning of the line                operator-linebreak
+    3:34   error  "define" is not defined                                          no-undef
+    3:47   error  "define" is not defined                                          no-undef
+    3:77   error  ':' should be placed at the beginning of the line                operator-linebreak
+    5:9    error  Gratuitous parentheses around expression                         no-extra-parens
+    5:31   error  Statement inside of curly braces should be on next line          brace-style
+    9:2    error  Expected indentation of 2 space characters but found 0           indent
+    9:6    error  There should be no spaces inside this paren                      space-in-parens
+    9:37   error  There should be no spaces inside this paren                      space-in-parens
+    9:38   error  Block must not be padded by blank lines                          padded-blocks
+   11:3    error  Expected indentation of 2 space characters but found 0           indent
+   11:29   error  There should be no spaces inside this paren                      space-in-parens
+   11:33   error  Unexpected space after unary operator "-"                        space-unary-ops
+   11:39   error  There should be no spaces inside this paren                      space-in-parens
+   13:3    error  Block must not be padded by blank lines                          padded-blocks
+   15:2    error  Expected indentation of 2 space characters but found 0           indent
+   15:6    error  There should be no spaces inside this paren                      space-in-parens
+   15:39   error  There should be no spaces inside this paren                      space-in-parens
+   15:40   error  Block must not be padded by blank lines                          padded-blocks
+   20:3    error  Expected indentation of 2 space characters but found 0           indent
+   20:32   error  There should be no spaces inside this paren                      space-in-parens
+   20:40   error  There should be no spaces inside this paren                      space-in-parens
+   20:41   error  Block must not be padded by blank lines                          padded-blocks
+   22:4    error  Expected indentation of 2 space characters but found 0           indent
+   22:49   error  There should be no spaces inside this paren                      space-in-parens
+   22:57   error  There should be no spaces inside this paren                      space-in-parens
+   22:72   error  There should be no spaces inside this paren                      space-in-parens
+   22:80   error  There should be no spaces inside this paren                      space-in-parens
+   24:4    error  Block must not be padded by blank lines                          padded-blocks
+   26:3    error  Block must not be padded by blank lines                          padded-blocks
+   30:2    error  Expected indentation of 2 space characters but found 0           indent
+   30:6    error  There should be no spaces inside this paren                      space-in-parens
+   30:32   error  There should be no spaces inside this paren                      space-in-parens
+   30:33   error  Block must not be padded by blank lines                          padded-blocks
+   34:3    error  Expected indentation of 2 space characters but found 0           indent
+   34:25   error  There should be no spaces inside this paren                      space-in-parens
+   34:29   error  There should be no spaces inside this paren                      space-in-parens
+   34:30   error  Block must not be padded by blank lines                          padded-blocks
+   36:4    error  Expected indentation of 2 space characters but found 0           indent
+   36:12   error  There should be no spaces inside this paren                      space-in-parens
+   36:20   error  There should be no spaces inside this paren                      space-in-parens
+   36:23   error  Unexpected space after unary operator "-"                        space-unary-ops
+   36:30   error  There should be no spaces inside this paren                      space-in-parens
+   36:38   error  There should be no spaces inside this paren                      space-in-parens
+   36:45   error  Unexpected space after unary operator "+"                        space-unary-ops
+   38:4    error  Block must not be padded by blank lines                          padded-blocks
+   40:3    error  Block must not be padded by blank lines                          padded-blocks
+   42:2    error  Expected indentation of 2 space characters but found 0           indent
+   42:6    error  There should be no spaces inside this paren                      space-in-parens
+   42:46   error  There should be no spaces inside this paren                      space-in-parens
+   42:47   error  Block must not be padded by blank lines                          padded-blocks
+   47:3    error  Expected indentation of 2 space characters but found 0           indent
+   47:3    error  Function prototype is read only, properties should not be added  no-extend-native
+   47:25   error  There should be no spaces inside this paren                      space-in-parens
+   49:4    error  Expected indentation of 2 space characters but found 0           indent
+   49:21   error  Block must not be padded by blank lines                          padded-blocks
+   51:5    error  Expected indentation of 2 space characters but found 0           indent
+   51:34   error  There should be no spaces inside this paren                      space-in-parens
+   51:64   error  There should be no spaces inside this paren                      space-in-parens
+   53:5    error  Block must not be padded by blank lines                          padded-blocks
+   55:6    error  There should be no spaces inside this paren                      space-in-parens
+   57:3    error  Block must not be padded by blank lines                          padded-blocks
+   59:2    error  Expected indentation of 2 space characters but found 0           indent
+   59:6    error  There should be no spaces inside this paren                      space-in-parens
+   59:36   error  There should be no spaces inside this paren                      space-in-parens
+   59:37   error  Block must not be padded by blank lines                          padded-blocks
+   64:3    error  Expected indentation of 2 space characters but found 0           indent
+   64:4    error  There should be no spaces inside this paren                      space-in-parens
+   64:17   error  Block must not be padded by blank lines                          padded-blocks
+   66:4    error  Expected indentation of 2 space characters but found 0           indent
+   66:30   error  There should be no spaces inside this paren                      space-in-parens
+   66:39   error  There should be no spaces inside this paren                      space-in-parens
+   66:40   error  Block must not be padded by blank lines                          padded-blocks
+   68:5    error  Expected indentation of 2 space characters but found 0           indent
+   70:5    error  Expected indentation of 2 space characters but found 0           indent
+   70:9    error  There should be no spaces inside this paren                      space-in-parens
+   70:51   error  There should be no spaces inside this paren                      space-in-parens
+   70:52   error  Block must not be padded by blank lines                          padded-blocks
+   72:6    error  Expected indentation of 2 space characters but found 0           indent
+   72:26   error  There should be no spaces inside this paren                      space-in-parens
+   72:73   error  There should be no spaces inside this paren                      space-in-parens
+   74:6    error  Block must not be padded by blank lines                          padded-blocks
+   76:5    error  Expected indentation of 2 space characters but found 0           indent
+   76:25   error  There should be no spaces inside this paren                      space-in-parens
+   76:34   error  There should be no spaces inside this paren                      space-in-parens
+   78:5    error  Expected indentation of 2 space characters but found 0           indent
+   78:10   error  There should be no spaces inside this paren                      space-in-parens
+   78:52   error  Unexpected space before unary operator "++"                      space-unary-ops
+   78:62   error  There should be no spaces inside this paren                      space-in-parens
+   78:63   error  Block must not be padded by blank lines                          padded-blocks
+   80:6    error  Expected indentation of 2 space characters but found 0           indent
+   82:6    error  Expected indentation of 2 space characters but found 0           indent
+   82:10   error  There should be no spaces inside this paren                      space-in-parens
+   82:52   error  There should be no spaces inside this paren                      space-in-parens
+   82:53   error  Block must not be padded by blank lines                          padded-blocks
+   84:7    error  Expected indentation of 2 space characters but found 0           indent
+   84:12   error  There should be no spaces inside this paren                      space-in-parens
+   84:36   error  There should be no spaces inside this paren                      space-in-parens
+   84:37   error  Block must not be padded by blank lines                          padded-blocks
+   86:8    error  Expected indentation of 2 space characters but found 0           indent
+   86:12   error  There should be no spaces inside this paren                      space-in-parens
+   86:50   error  There should be no spaces inside this paren                      space-in-parens
+   86:68   error  There should be no spaces inside this paren                      space-in-parens
+   86:70   error  There should be no spaces inside this paren                      space-in-parens
+   86:71   error  Block must not be padded by blank lines                          padded-blocks
+   88:9    error  Expected indentation of 2 space characters but found 0           indent
+   90:9    error  Block must not be padded by blank lines                          padded-blocks
+   92:8    error  Block must not be padded by blank lines                          padded-blocks
+   94:7    error  Block must not be padded by blank lines                          padded-blocks
+   96:6    error  Block must not be padded by blank lines                          padded-blocks
+   98:5    error  Expected indentation of 2 space characters but found 0           indent
+  100:5    error  Block must not be padded by blank lines                          padded-blocks
+  102:4    error  Block must not be padded by blank lines                          padded-blocks
+  102:6    error  There should be no spaces inside this paren                      space-in-parens
+  104:3    error  Block must not be padded by blank lines                          padded-blocks
+  110:2    error  Expected indentation of 2 space characters but found 0           indent
+  110:26   error  Missing space before function parentheses                        space-before-function-paren
+  112:2    error  Expected indentation of 2 space characters but found 0           indent
+  112:16   error  There should be no spaces inside this paren                      space-in-parens
+  114:3    error  Expected indentation of 2 space characters but found 0           indent
+  114:31   error  There should be no spaces inside this paren                      space-in-parens
+  114:48   error  There should be no spaces inside this paren                      space-in-parens
+  114:49   error  Block must not be padded by blank lines                          padded-blocks
+  116:4    error  Expected indentation of 2 space characters but found 0           indent
+  116:8    error  There should be no spaces inside this paren                      space-in-parens
+  116:40   error  There should be no spaces inside this paren                      space-in-parens
+  118:4    error  Expected indentation of 2 space characters but found 0           indent
+  120:4    error  Expected indentation of 2 space characters but found 0           indent
+  120:8    error  There should be no spaces inside this paren                      space-in-parens
+  120:42   error  There should be no spaces inside this paren                      space-in-parens
+  120:43   error  Block must not be padded by blank lines                          padded-blocks
+  122:5    error  Expected indentation of 2 space characters but found 0           indent
+  124:5    error  Block must not be padded by blank lines                          padded-blocks
+  126:4    error  Expected indentation of 2 space characters but found 0           indent
+  126:8    error  There should be no spaces inside this paren                      space-in-parens
+  126:35   error  There should be no spaces inside this paren                      space-in-parens
+  126:46   error  There should be no spaces inside this paren                      space-in-parens
+  126:51   error  Unexpected space after unary operator "-"                        space-unary-ops
+  126:56   error  There should be no spaces inside this paren                      space-in-parens
+  126:57   error  Block must not be padded by blank lines                          padded-blocks
+  128:5    error  Expected indentation of 2 space characters but found 0           indent
+  128:28   error  There should be no spaces inside this paren                      space-in-parens
+  128:39   error  There should be no spaces inside this paren                      space-in-parens
+  130:5    error  Block must not be padded by blank lines                          padded-blocks
+  132:4    error  Block must not be padded by blank lines                          padded-blocks
+  134:3    error  Expected indentation of 2 space characters but found 0           indent
+  134:31   error  There should be no spaces inside this paren                      space-in-parens
+  134:48   error  There should be no spaces inside this paren                      space-in-parens
+  134:49   error  Block must not be padded by blank lines                          padded-blocks
+  136:4    error  Expected indentation of 2 space characters but found 0           indent
+  136:8    error  There should be no spaces inside this paren                      space-in-parens
+  136:40   error  There should be no spaces inside this paren                      space-in-parens
+  138:4    error  Expected indentation of 2 space characters but found 0           indent
+  140:4    error  Expected indentation of 2 space characters but found 0           indent
+  140:72   error  There should be no spaces inside this paren                      space-in-parens
+  140:83   error  There should be no spaces inside this paren                      space-in-parens
+  140:88   error  Unexpected space after unary operator "-"                        space-unary-ops
+  142:4    error  Block must not be padded by blank lines                          padded-blocks
+  144:3    error  Expected indentation of 2 space characters but found 0           indent
+  144:34   error  There should be no spaces inside this paren                      space-in-parens
+  144:51   error  There should be no spaces inside this paren                      space-in-parens
+  144:52   error  Block must not be padded by blank lines                          padded-blocks
+  146:4    error  Expected indentation of 2 space characters but found 0           indent
+  146:8    error  There should be no spaces inside this paren                      space-in-parens
+  146:40   error  There should be no spaces inside this paren                      space-in-parens
+  148:4    error  Expected indentation of 2 space characters but found 0           indent
+  149:4    error  Expected indentation of 2 space characters but found 0           indent
+  151:4    error  Expected indentation of 2 space characters but found 0           indent
+  151:8    error  There should be no spaces inside this paren                      space-in-parens
+  151:38   error  There should be no spaces inside this paren                      space-in-parens
+  151:39   error  Block must not be padded by blank lines                          padded-blocks
+  153:5    error  Expected indentation of 2 space characters but found 0           indent
+  153:39   error  There should be no spaces inside this paren                      space-in-parens
+  153:50   error  There should be no spaces inside this paren                      space-in-parens
+  155:5    error  Expected indentation of 2 space characters but found 0           indent
+  155:9    error  There should be no spaces inside this paren                      space-in-parens
+  155:20   error  Unexpected space after unary operator "-"                        space-unary-ops
+  155:25   error  There should be no spaces inside this paren                      space-in-parens
+  155:26   error  Block must not be padded by blank lines                          padded-blocks
+  157:6    error  Expected indentation of 2 space characters but found 0           indent
+  157:27   error  There should be no spaces inside this paren                      space-in-parens
+  157:38   error  There should be no spaces inside this paren                      space-in-parens
+  159:6    error  Block must not be padded by blank lines                          padded-blocks
+  161:5    error  Block must not be padded by blank lines                          padded-blocks
+  163:4    error  Block must not be padded by blank lines                          padded-blocks
+  165:3    error  Expected indentation of 2 space characters but found 0           indent
+  165:28   error  There should be no spaces inside this paren                      space-in-parens
+  165:36   error  There should be no spaces inside this paren                      space-in-parens
+  165:37   error  Block must not be padded by blank lines                          padded-blocks
+  167:4    error  Expected indentation of 2 space characters but found 0           indent
+  167:8    error  There should be no spaces inside this paren                      space-in-parens
+  167:40   error  There should be no spaces inside this paren                      space-in-parens
+  169:4    error  Expected indentation of 2 space characters but found 0           indent
+  170:4    error  Expected indentation of 2 space characters but found 0           indent
+  172:4    error  Expected indentation of 2 space characters but found 0           indent
+  172:8    error  There should be no spaces inside this paren                      space-in-parens
+  172:38   error  There should be no spaces inside this paren                      space-in-parens
+  172:39   error  Block must not be padded by blank lines                          padded-blocks
+  174:5    error  Expected indentation of 2 space characters but found 0           indent
+  176:5    error  Expected indentation of 2 space characters but found 0           indent
+  176:37   error  There should be no spaces inside this paren                      space-in-parens
+  176:41   error  There should be no spaces inside this paren                      space-in-parens
+  178:5    error  Expected indentation of 2 space characters but found 0           indent
+  178:10   error  There should be no spaces inside this paren                      space-in-parens
+  178:47   error  Unexpected space before unary operator "++"                      space-unary-ops
+  178:53   error  There should be no spaces inside this paren                      space-in-parens
+  178:54   error  Block must not be padded by blank lines                          padded-blocks
+  180:6    error  Expected indentation of 2 space characters but found 0           indent
+  180:22   error  There should be no spaces inside this paren                      space-in-parens
+  180:36   error  There should be no spaces inside this paren                      space-in-parens
+  182:6    error  Block must not be padded by blank lines                          padded-blocks
+  184:5    error  Block must not be padded by blank lines                          padded-blocks
+  186:4    error  Block must not be padded by blank lines                          padded-blocks
+  188:5    error  There should be no spaces inside this paren                      space-in-parens
+  190:2    error  Expected indentation of 2 space characters but found 0           indent
+  191:2    error  Expected indentation of 2 space characters but found 0           indent
+  192:2    error  Expected indentation of 2 space characters but found 0           indent
+  193:2    error  Expected indentation of 2 space characters but found 0           indent
+  194:2    error  Expected indentation of 2 space characters but found 0           indent
+  195:2    error  Expected indentation of 2 space characters but found 0           indent
+  196:2    error  Expected indentation of 2 space characters but found 0           indent
+  197:2    error  Expected indentation of 2 space characters but found 0           indent
+  198:2    error  Expected indentation of 2 space characters but found 0           indent
+  199:2    error  Expected indentation of 2 space characters but found 0           indent
+  200:2    error  Expected indentation of 2 space characters but found 0           indent
+  201:2    error  Expected indentation of 2 space characters but found 0           indent
+  202:2    error  Expected indentation of 2 space characters but found 0           indent
+  203:2    error  Expected indentation of 2 space characters but found 0           indent
+  204:2    error  Expected indentation of 2 space characters but found 0           indent
+  205:2    error  Expected indentation of 2 space characters but found 0           indent
+  206:2    error  Expected indentation of 2 space characters but found 0           indent
+  207:2    error  Expected indentation of 2 space characters but found 0           indent
+  208:2    error  Expected indentation of 2 space characters but found 0           indent
+  209:2    error  Expected indentation of 2 space characters but found 0           indent
+  210:2    error  Expected indentation of 2 space characters but found 0           indent
+  211:2    error  Expected indentation of 2 space characters but found 0           indent
+  212:2    error  Expected indentation of 2 space characters but found 0           indent
+  213:2    error  Expected indentation of 2 space characters but found 0           indent
+  214:2    error  Expected indentation of 2 space characters but found 0           indent
+  215:2    error  Expected indentation of 2 space characters but found 0           indent
+  216:2    error  Expected indentation of 2 space characters but found 0           indent
+  217:2    error  Expected indentation of 2 space characters but found 0           indent
+  218:2    error  Expected indentation of 2 space characters but found 0           indent
+  219:2    error  Expected indentation of 2 space characters but found 0           indent
+  220:2    error  Expected indentation of 2 space characters but found 0           indent
+  221:2    error  Expected indentation of 2 space characters but found 0           indent
+  222:2    error  Expected indentation of 2 space characters but found 0           indent
+  223:2    error  Expected indentation of 2 space characters but found 0           indent
+  224:2    error  Expected indentation of 2 space characters but found 0           indent
+  225:2    error  Expected indentation of 2 space characters but found 0           indent
+  226:2    error  Expected indentation of 2 space characters but found 0           indent
+  227:2    error  Expected indentation of 2 space characters but found 0           indent
+  228:2    error  Expected indentation of 2 space characters but found 0           indent
+  229:2    error  Expected indentation of 2 space characters but found 0           indent
+  230:2    error  Expected indentation of 2 space characters but found 0           indent
+  231:2    error  Expected indentation of 2 space characters but found 0           indent
+  232:2    error  Expected indentation of 2 space characters but found 0           indent
+  233:2    error  Expected indentation of 2 space characters but found 0           indent
+  234:2    error  Expected indentation of 2 space characters but found 0           indent
+  235:2    error  Expected indentation of 2 space characters but found 0           indent
+  236:2    error  Expected indentation of 2 space characters but found 0           indent
+  237:2    error  Expected indentation of 2 space characters but found 0           indent
+  238:2    error  Expected indentation of 2 space characters but found 0           indent
+  239:2    error  Expected indentation of 2 space characters but found 0           indent
+  240:2    error  Expected indentation of 2 space characters but found 0           indent
+  241:2    error  Expected indentation of 2 space characters but found 0           indent
+  242:2    error  Expected indentation of 2 space characters but found 0           indent
+  243:2    error  Expected indentation of 2 space characters but found 0           indent
+  244:2    error  Expected indentation of 2 space characters but found 0           indent
+  245:2    error  Expected indentation of 2 space characters but found 0           indent
+  246:2    error  Expected indentation of 2 space characters but found 0           indent
+  247:2    error  Expected indentation of 2 space characters but found 0           indent
+  248:2    error  Expected indentation of 2 space characters but found 0           indent
+  249:2    error  Expected indentation of 2 space characters but found 0           indent
+  250:2    error  Expected indentation of 2 space characters but found 0           indent
+  251:2    error  Expected indentation of 2 space characters but found 0           indent
+  252:2    error  Expected indentation of 2 space characters but found 0           indent
+  253:2    error  Expected indentation of 2 space characters but found 0           indent
+  254:2    error  Expected indentation of 2 space characters but found 0           indent
+  255:2    error  Expected indentation of 2 space characters but found 0           indent
+  256:2    error  Expected indentation of 2 space characters but found 0           indent
+  257:2    error  Expected indentation of 2 space characters but found 0           indent
+  258:2    error  Expected indentation of 2 space characters but found 0           indent
+  259:2    error  Expected indentation of 2 space characters but found 0           indent
+  260:2    error  Expected indentation of 2 space characters but found 0           indent
+  261:2    error  Expected indentation of 2 space characters but found 0           indent
+  262:2    error  Expected indentation of 2 space characters but found 0           indent
+  263:2    error  Expected indentation of 2 space characters but found 0           indent
+  264:2    error  Expected indentation of 2 space characters but found 0           indent
+  265:2    error  Expected indentation of 2 space characters but found 0           indent
+  266:2    error  Expected indentation of 2 space characters but found 0           indent
+  267:2    error  Expected indentation of 2 space characters but found 0           indent
+  268:2    error  Expected indentation of 2 space characters but found 0           indent
+  269:2    error  Expected indentation of 2 space characters but found 0           indent
+  270:2    error  Expected indentation of 2 space characters but found 0           indent
+  271:2    error  Expected indentation of 2 space characters but found 0           indent
+  272:2    error  Expected indentation of 2 space characters but found 0           indent
+  273:2    error  Expected indentation of 2 space characters but found 0           indent
+  274:2    error  Expected indentation of 2 space characters but found 0           indent
+  275:2    error  Expected indentation of 2 space characters but found 0           indent
+  276:2    error  Expected indentation of 2 space characters but found 0           indent
+  277:2    error  Expected indentation of 2 space characters but found 0           indent
+  278:2    error  Expected indentation of 2 space characters but found 0           indent
+  279:2    error  Expected indentation of 2 space characters but found 0           indent
+  280:2    error  Expected indentation of 2 space characters but found 0           indent
+  281:2    error  Expected indentation of 2 space characters but found 0           indent
+  282:2    error  Expected indentation of 2 space characters but found 0           indent
+  283:2    error  Expected indentation of 2 space characters but found 0           indent
+  284:2    error  Expected indentation of 2 space characters but found 0           indent
+  285:2    error  Expected indentation of 2 space characters but found 0           indent
+  286:2    error  Expected indentation of 2 space characters but found 0           indent
+  287:2    error  Expected indentation of 2 space characters but found 0           indent
+  288:2    error  Expected indentation of 2 space characters but found 0           indent
+  289:2    error  Expected indentation of 2 space characters but found 0           indent
+  290:2    error  Expected indentation of 2 space characters but found 0           indent
+  291:2    error  Expected indentation of 2 space characters but found 0           indent
+  292:2    error  Expected indentation of 2 space characters but found 0           indent
+  293:2    error  Expected indentation of 2 space characters but found 0           indent
+  294:2    error  Expected indentation of 2 space characters but found 0           indent
+  295:2    error  Expected indentation of 2 space characters but found 0           indent
+  296:2    error  Expected indentation of 2 space characters but found 0           indent
+  297:2    error  Expected indentation of 2 space characters but found 0           indent
+  298:2    error  Expected indentation of 2 space characters but found 0           indent
+  299:2    error  Expected indentation of 2 space characters but found 0           indent
+  300:2    error  Expected indentation of 2 space characters but found 0           indent
+  301:2    error  Expected indentation of 2 space characters but found 0           indent
+  302:2    error  Expected indentation of 2 space characters but found 0           indent
+  303:2    error  Expected indentation of 2 space characters but found 0           indent
+  304:2    error  Expected indentation of 2 space characters but found 0           indent
+  305:2    error  Expected indentation of 2 space characters but found 0           indent
+  306:2    error  Expected indentation of 2 space characters but found 0           indent
+  307:2    error  Expected indentation of 2 space characters but found 0           indent
+  308:2    error  Expected indentation of 2 space characters but found 0           indent
+  309:2    error  Expected indentation of 2 space characters but found 0           indent
+  310:2    error  Expected indentation of 2 space characters but found 0           indent
+  311:2    error  Expected indentation of 2 space characters but found 0           indent
+  312:2    error  Expected indentation of 2 space characters but found 0           indent
+  313:2    error  Expected indentation of 2 space characters but found 0           indent
+  314:2    error  Expected indentation of 2 space characters but found 0           indent
+  321:2    error  Expected indentation of 2 space characters but found 0           indent
+  323:3    error  Expected indentation of 2 space characters but found 0           indent
+  324:3    error  Expected indentation of 2 space characters but found 0           indent
+  326:3    error  Expected indentation of 2 space characters but found 0           indent
+  326:17   error  Wrap an immediate function invocation in parentheses             wrap-iife
+  326:29   error  Block must not be padded by blank lines                          padded-blocks
+  330:4    error  Expected indentation of 2 space characters but found 0           indent
+  330:87   error  There should be no spaces inside this paren                      space-in-parens
+  330:92   error  There should be no spaces inside this paren                      space-in-parens
+  331:4    error  Expected indentation of 2 space characters but found 0           indent
+  331:25   error  There should be no spaces inside this paren                      space-in-parens
+  331:30   error  There should be no spaces inside this paren                      space-in-parens
+  332:4    error  Split initialized 'var' declarations into multiple statements    one-var
+  332:4    error  Expected indentation of 2 space characters but found 0           indent
+  334:4    error  Expected indentation of 2 space characters but found 0           indent
+  334:32   error  Missing space before function parentheses                        space-before-function-paren
+  334:35   error  Block must not be padded by blank lines                          padded-blocks
+  336:5    error  Expected indentation of 2 space characters but found 0           indent
+  336:10   error  There should be no spaces inside this paren                      space-in-parens
+  336:30   error  Unexpected space before unary operator "++"                      space-unary-ops
+  336:36   error  There should be no spaces inside this paren                      space-in-parens
+  336:37   error  Block must not be padded by blank lines                          padded-blocks
+  338:6    error  Expected indentation of 2 space characters but found 0           indent
+  338:10   error  There should be no spaces inside this paren                      space-in-parens
+  338:56   error  There should be no spaces inside this paren                      space-in-parens
+  338:57   error  Block must not be padded by blank lines                          padded-blocks
+  340:7    error  Expected indentation of 2 space characters but found 0           indent
+  342:7    error  Block must not be padded by blank lines                          padded-blocks
+  342:17   error  There should be no spaces inside this paren                      space-in-parens
+  342:28   error  There should be no spaces inside this paren                      space-in-parens
+  342:29   error  Block must not be padded by blank lines                          padded-blocks
+  344:7    error  Expected indentation of 2 space characters but found 0           indent
+  346:7    error  Block must not be padded by blank lines                          padded-blocks
+  346:13   error  Block must not be padded by blank lines                          padded-blocks
+  348:7    error  Expected indentation of 2 space characters but found 0           indent
+  348:11   error  There should be no spaces inside this paren                      space-in-parens
+  348:25   error  There should be no spaces inside this paren                      space-in-parens
+  348:45   error  There should be no spaces inside this paren                      space-in-parens
+  348:73   error  There should be no spaces inside this paren                      space-in-parens
+  349:7    error  Expected indentation of 2 space characters but found 0           indent
+  350:7    error  Expected indentation of 2 space characters but found 0           indent
+  351:7    error  Expected indentation of 2 space characters but found 0           indent
+  351:27   error  There should be no spaces inside this paren                      space-in-parens
+  351:38   error  There should be no spaces inside this paren                      space-in-parens
+  351:42   error  There should be no spaces inside this paren                      space-in-parens
+  351:52   error  There should be no spaces inside this paren                      space-in-parens
+  353:7    error  Block must not be padded by blank lines                          padded-blocks
+  355:6    error  Block must not be padded by blank lines                          padded-blocks
+  357:5    error  Expected indentation of 2 space characters but found 0           indent
+  357:22   error  There should be no spaces inside this paren                      space-in-parens
+  357:27   error  There should be no spaces inside this paren                      space-in-parens
+  359:5    error  Block must not be padded by blank lines                          padded-blocks
+  361:4    error  Block must not be padded by blank lines                          padded-blocks
+  363:3    error  Expected indentation of 2 space characters but found 0           indent
+  363:20   error  There should be no spaces inside this paren                      space-in-parens
+  363:38   error  There should be no spaces inside this paren                      space-in-parens
+  363:39   error  Block must not be padded by blank lines                          padded-blocks
+  365:4    error  Expected indentation of 2 space characters but found 0           indent
+  365:20   error  There should be no spaces inside this paren                      space-in-parens
+  365:35   error  There should be no spaces inside this paren                      space-in-parens
+  365:48   error  There should be no spaces inside this paren                      space-in-parens
+  365:50   error  There should be no spaces inside this paren                      space-in-parens
+  367:4    error  Block must not be padded by blank lines                          padded-blocks
+  372:3    error  Expected indentation of 2 space characters but found 0           indent
+  372:30   error  There should be no spaces inside this paren                      space-in-parens
+  372:37   error  There should be no spaces inside this paren                      space-in-parens
+  372:38   error  Block must not be padded by blank lines                          padded-blocks
+  374:4    error  Expected indentation of 2 space characters but found 0           indent
+  374:12   error  There should be no spaces inside this paren                      space-in-parens
+  374:14   error  There should be no spaces inside this paren                      space-in-parens
+  374:22   error  There should be no spaces inside this paren                      space-in-parens
+  374:28   error  There should be no spaces inside this paren                      space-in-parens
+  376:4    error  Block must not be padded by blank lines                          padded-blocks
+  380:3    error  Expected indentation of 2 space characters but found 0           indent
+  380:24   error  There should be no spaces inside this paren                      space-in-parens
+  380:44   error  There should be no spaces inside this paren                      space-in-parens
+  380:45   error  Block must not be padded by blank lines                          padded-blocks
+  382:4    error  Expected indentation of 2 space characters but found 0           indent
+  382:17   error  There should be no spaces inside this paren                      space-in-parens
+  382:26   error  There should be no spaces inside this paren                      space-in-parens
+  382:30   error  There should be no spaces inside this paren                      space-in-parens
+  382:40   error  There should be no spaces inside this paren                      space-in-parens
+  382:44   error  There should be no spaces inside this paren                      space-in-parens
+  382:54   error  There should be no spaces inside this paren                      space-in-parens
+  384:4    error  Block must not be padded by blank lines                          padded-blocks
+  388:3    error  Expected indentation of 2 space characters but found 0           indent
+  388:19   error  There should be no spaces inside this paren                      space-in-parens
+  388:29   error  There should be no spaces inside this paren                      space-in-parens
+  388:30   error  Block must not be padded by blank lines                          padded-blocks
+  390:4    error  Expected indentation of 2 space characters but found 0           indent
+  390:12   error  There should be no spaces inside this paren                      space-in-parens
+  390:20   error  There should be no spaces inside this paren                      space-in-parens
+  392:4    error  Block must not be padded by blank lines                          padded-blocks
+  396:3    error  Expected indentation of 2 space characters but found 0           indent
+  396:25   error  There should be no spaces inside this paren                      space-in-parens
+  396:39   error  There should be no spaces inside this paren                      space-in-parens
+  396:40   error  Block must not be padded by blank lines                          padded-blocks
+  398:4    error  Expected indentation of 2 space characters but found 0           indent
+  398:8    error  There should be no spaces inside this paren                      space-in-parens
+  398:19   error  There should be no spaces inside this paren                      space-in-parens
+  399:4    error  Expected indentation of 2 space characters but found 0           indent
+  399:8    error  There should be no spaces inside this paren                      space-in-parens
+  399:19   error  There should be no spaces inside this paren                      space-in-parens
+  401:4    error  Expected indentation of 2 space characters but found 0           indent
+  401:9    error  There should be no spaces inside this paren                      space-in-parens
+  401:19   error  There should be no spaces inside this paren                      space-in-parens
+  401:23   error  There should be no spaces inside this paren                      space-in-parens
+  401:35   error  There should be no spaces inside this paren                      space-in-parens
+  403:4    error  Expected indentation of 2 space characters but found 0           indent
+  403:20   error  There should be no spaces inside this paren                      space-in-parens
+  403:32   error  There should be no spaces inside this paren                      space-in-parens
+  405:4    error  Block must not be padded by blank lines                          padded-blocks
+  407:3    error  Expected indentation of 2 space characters but found 0           indent
+  407:27   error  There should be no spaces inside this paren                      space-in-parens
+  407:41   error  There should be no spaces inside this paren                      space-in-parens
+  407:42   error  Block must not be padded by blank lines                          padded-blocks
+  409:4    error  Expected indentation of 2 space characters but found 0           indent
+  409:8    error  There should be no spaces inside this paren                      space-in-parens
+  409:19   error  There should be no spaces inside this paren                      space-in-parens
+  410:4    error  Expected indentation of 2 space characters but found 0           indent
+  410:8    error  There should be no spaces inside this paren                      space-in-parens
+  410:19   error  There should be no spaces inside this paren                      space-in-parens
+  412:4    error  Expected indentation of 2 space characters but found 0           indent
+  412:9    error  There should be no spaces inside this paren                      space-in-parens
+  412:19   error  There should be no spaces inside this paren                      space-in-parens
+  412:23   error  There should be no spaces inside this paren                      space-in-parens
+  412:35   error  There should be no spaces inside this paren                      space-in-parens
+  414:4    error  Expected indentation of 2 space characters but found 0           indent
+  414:24   error  There should be no spaces inside this paren                      space-in-parens
+  414:30   error  There should be no spaces inside this paren                      space-in-parens
+  414:43   error  There should be no spaces inside this paren                      space-in-parens
+  414:50   error  There should be no spaces inside this paren                      space-in-parens
+  416:4    error  Block must not be padded by blank lines                          padded-blocks
+  420:3    error  Expected indentation of 2 space characters but found 0           indent
+  420:22   error  There should be no spaces inside this paren                      space-in-parens
+  420:34   error  There should be no spaces inside this paren                      space-in-parens
+  420:35   error  Block must not be padded by blank lines                          padded-blocks
+  422:4    error  Expected indentation of 2 space characters but found 0           indent
+  422:28   error  There should be no spaces inside this paren                      space-in-parens
+  422:46   error  There should be no spaces inside this paren                      space-in-parens
+  422:63   error  There should be no spaces inside this paren                      space-in-parens
+  422:65   error  There should be no spaces inside this paren                      space-in-parens
+  424:4    error  Block must not be padded by blank lines                          padded-blocks
+  428:3    error  Expected indentation of 2 space characters but found 0           indent
+  428:24   error  There should be no spaces inside this paren                      space-in-parens
+  428:36   error  There should be no spaces inside this paren                      space-in-parens
+  428:37   error  Block must not be padded by blank lines                          padded-blocks
+  430:4    error  Expected indentation of 2 space characters but found 0           indent
+  430:34   error  There should be no spaces inside this paren                      space-in-parens
+  430:47   error  There should be no spaces inside this paren                      space-in-parens
+  432:4    error  Block must not be padded by blank lines                          padded-blocks
+  436:3    error  Expected indentation of 2 space characters but found 0           indent
+  436:30   error  There should be no spaces inside this paren                      space-in-parens
+  436:38   error  There should be no spaces inside this paren                      space-in-parens
+  436:39   error  Block must not be padded by blank lines                          padded-blocks
+  438:4    error  Expected indentation of 2 space characters but found 0           indent
+  438:20   error  There should be no spaces inside this paren                      space-in-parens
+  438:42   error  There should be no spaces inside this paren                      space-in-parens
+  440:4    error  Block must not be padded by blank lines                          padded-blocks
+  442:3    error  Expected indentation of 2 space characters but found 0           indent
+  442:23   error  There should be no spaces inside this paren                      space-in-parens
+  442:33   error  There should be no spaces inside this paren                      space-in-parens
+  442:34   error  Block must not be padded by blank lines                          padded-blocks
+  444:4    error  Expected indentation of 2 space characters but found 0           indent
+  446:4    error  Block must not be padded by blank lines                          padded-blocks
+  448:3    error  Expected indentation of 2 space characters but found 0           indent
+  448:23   error  There should be no spaces inside this paren                      space-in-parens
+  448:33   error  There should be no spaces inside this paren                      space-in-parens
+  448:34   error  Block must not be padded by blank lines                          padded-blocks
+  450:4    error  Expected indentation of 2 space characters but found 0           indent
+  452:4    error  Block must not be padded by blank lines                          padded-blocks
+  454:3    error  Expected indentation of 2 space characters but found 0           indent
+  454:27   error  There should be no spaces inside this paren                      space-in-parens
+  454:35   error  There should be no spaces inside this paren                      space-in-parens
+  454:36   error  Block must not be padded by blank lines                          padded-blocks
+  456:4    error  Expected indentation of 2 space characters but found 0           indent
+  456:12   error  There should be no spaces inside this paren                      space-in-parens
+  456:22   error  There should be no spaces inside this paren                      space-in-parens
+  456:34   error  There should be no spaces inside this paren                      space-in-parens
+  456:36   error  There should be no spaces inside this paren                      space-in-parens
+  458:4    error  Block must not be padded by blank lines                          padded-blocks
+  460:3    error  Expected indentation of 2 space characters but found 0           indent
+  460:32   error  There should be no spaces inside this paren                      space-in-parens
+  460:40   error  There should be no spaces inside this paren                      space-in-parens
+  460:41   error  Block must not be padded by blank lines                          padded-blocks
+  462:4    error  Expected indentation of 2 space characters but found 0           indent
+  462:20   error  There should be no spaces inside this paren                      space-in-parens
+  462:35   error  There should be no spaces inside this paren                      space-in-parens
+  462:45   error  There should be no spaces inside this paren                      space-in-parens
+  462:53   error  There should be no spaces inside this paren                      space-in-parens
+  462:66   error  There should be no spaces inside this paren                      space-in-parens
+  462:68   error  There should be no spaces inside this paren                      space-in-parens
+  464:4    error  Block must not be padded by blank lines                          padded-blocks
+  466:3    error  Expected indentation of 2 space characters but found 0           indent
+  466:29   error  There should be no spaces inside this paren                      space-in-parens
+  466:37   error  There should be no spaces inside this paren                      space-in-parens
+  466:38   error  Block must not be padded by blank lines                          padded-blocks
+  468:4    error  Expected indentation of 2 space characters but found 0           indent
+  468:4    error  Unexpected space before unary operator "--"                      space-unary-ops
+  469:4    error  Expected indentation of 2 space characters but found 0           indent
+  470:4    error  Expected indentation of 2 space characters but found 0           indent
+  471:4    error  Expected indentation of 2 space characters but found 0           indent
+  472:4    error  Expected indentation of 2 space characters but found 0           indent
+  473:4    error  Expected indentation of 2 space characters but found 0           indent
+  474:4    error  Expected indentation of 2 space characters but found 0           indent
+  474:4    error  Unexpected space before unary operator "++"                      space-unary-ops
+  476:4    error  Expected indentation of 2 space characters but found 0           indent
+  478:4    error  Block must not be padded by blank lines                          padded-blocks
+  489:2    error  Expected indentation of 2 space characters but found 0           indent
+  489:18   error  Missing space before function parentheses                        space-before-function-paren
+  489:19   error  There should be no spaces inside this paren                      space-in-parens
+  489:26   error  There should be no spaces inside this paren                      space-in-parens
+  489:27   error  Block must not be padded by blank lines                          padded-blocks
+  491:3    error  Expected indentation of 2 space characters but found 0           indent
+  492:3    error  Expected indentation of 2 space characters but found 0           indent
+  494:3    error  Block must not be padded by blank lines                          padded-blocks
+  496:2    error  Expected indentation of 2 space characters but found 0           indent
+  496:26   error  There should be no spaces inside this paren                      space-in-parens
+  498:3    error  Strings must use singlequote                                     quotes
+  498:3    error  Expected indentation of 2 space characters but found 0           indent
+  498:3    error  Extra space after key "width"                                    key-spacing
+  500:4    error  Expected indentation of 2 space characters but found 0           indent
+  500:21   error  Block must not be padded by blank lines                          padded-blocks
+  502:5    error  Expected indentation of 2 space characters but found 0           indent
+  504:5    error  Block must not be padded by blank lines                          padded-blocks
+  506:4    error  Expected indentation of 2 space characters but found 0           indent
+  506:19   error  There should be no spaces inside this paren                      space-in-parens
+  506:27   error  There should be no spaces inside this paren                      space-in-parens
+  506:28   error  Block must not be padded by blank lines                          padded-blocks
+  508:5    error  Expected indentation of 2 space characters but found 0           indent
+  510:5    error  Block must not be padded by blank lines                          padded-blocks
+  514:3    error  Expected indentation of 2 space characters but found 0           indent
+  514:3    error  Strings must use singlequote                                     quotes
+  514:3    error  Extra space after key "height"                                   key-spacing
+  516:4    error  Expected indentation of 2 space characters but found 0           indent
+  516:21   error  Block must not be padded by blank lines                          padded-blocks
+  518:5    error  Expected indentation of 2 space characters but found 0           indent
+  520:5    error  Block must not be padded by blank lines                          padded-blocks
+  522:4    error  Expected indentation of 2 space characters but found 0           indent
+  522:19   error  There should be no spaces inside this paren                      space-in-parens
+  522:27   error  There should be no spaces inside this paren                      space-in-parens
+  522:28   error  Block must not be padded by blank lines                          padded-blocks
+  524:5    error  Expected indentation of 2 space characters but found 0           indent
+  526:5    error  Block must not be padded by blank lines                          padded-blocks
+  530:5    error  There should be no spaces inside this paren                      space-in-parens
+  532:2    error  Expected indentation of 2 space characters but found 0           indent
+  532:16   error  There should be no spaces inside this paren                      space-in-parens
+  534:3    error  Expected indentation of 2 space characters but found 0           indent
+  536:3    error  Expected indentation of 2 space characters but found 0           indent
+  536:18   error  There should be no spaces inside this paren                      space-in-parens
+  536:25   error  There should be no spaces inside this paren                      space-in-parens
+  536:26   error  Block must not be padded by blank lines                          padded-blocks
+  538:4    error  Expected indentation of 2 space characters but found 0           indent
+  539:4    error  Expected indentation of 2 space characters but found 0           indent
+  541:4    error  Expected indentation of 2 space characters but found 0           indent
+  543:4    error  Block must not be padded by blank lines                          padded-blocks
+  545:3    error  Expected indentation of 2 space characters but found 0           indent
+  545:24   error  There should be no spaces inside this paren                      space-in-parens
+  545:33   error  There should be no spaces inside this paren                      space-in-parens
+  545:34   error  Block must not be padded by blank lines                          padded-blocks
+  547:4    error  Expected indentation of 2 space characters but found 0           indent
+  548:4    error  Expected indentation of 2 space characters but found 0           indent
+  550:4    error  Expected indentation of 2 space characters but found 0           indent
+  552:4    error  Block must not be padded by blank lines                          padded-blocks
+  554:3    error  Expected indentation of 2 space characters but found 0           indent
+  554:19   error  There should be no spaces inside this paren                      space-in-parens
+  554:23   error  There should be no spaces inside this paren                      space-in-parens
+  554:24   error  Block must not be padded by blank lines                          padded-blocks
+  556:4    error  Expected indentation of 2 space characters but found 0           indent
+  558:4    error  Expected indentation of 2 space characters but found 0           indent
+  560:4    error  Block must not be padded by blank lines                          padded-blocks
+  562:3    error  Expected indentation of 2 space characters but found 0           indent
+  562:19   error  There should be no spaces inside this paren                      space-in-parens
+  562:23   error  There should be no spaces inside this paren                      space-in-parens
+  562:24   error  Block must not be padded by blank lines                          padded-blocks
+  564:4    error  Expected indentation of 2 space characters but found 0           indent
+  566:4    error  Expected indentation of 2 space characters but found 0           indent
+  568:4    error  Block must not be padded by blank lines                          padded-blocks
+  570:3    error  Expected indentation of 2 space characters but found 0           indent
+  570:27   error  There should be no spaces inside this paren                      space-in-parens
+  570:42   error  There should be no spaces inside this paren                      space-in-parens
+  570:43   error  Block must not be padded by blank lines                          padded-blocks
+  572:4    error  Expected indentation of 2 space characters but found 0           indent
+  572:12   error  There should be no spaces inside this paren                      space-in-parens
+  572:20   error  There should be no spaces inside this paren                      space-in-parens
+  574:5    error  Expected indentation of 2 space characters but found 0           indent
+  575:5    error  Expected indentation of 2 space characters but found 0           indent
+  576:5    error  Expected indentation of 2 space characters but found 0           indent
+  576:30   error  There should be no spaces inside this paren                      space-in-parens
+  576:66   error  There should be no spaces inside this paren                      space-in-parens
+  580:4    error  Expected indentation of 2 space characters but found 0           indent
+  582:4    error  Block must not be padded by blank lines                          padded-blocks
+  584:3    error  Expected indentation of 2 space characters but found 0           indent
+  584:27   error  There should be no spaces inside this paren                      space-in-parens
+  584:35   error  There should be no spaces inside this paren                      space-in-parens
+  584:36   error  Block must not be padded by blank lines                          padded-blocks
+  586:4    error  Expected indentation of 2 space characters but found 0           indent
+  586:12   error  There should be no spaces inside this paren                      space-in-parens
+  586:20   error  There should be no spaces inside this paren                      space-in-parens
+  588:5    error  Expected indentation of 2 space characters but found 0           indent
+  589:5    error  Expected indentation of 2 space characters but found 0           indent
+  590:5    error  Expected indentation of 2 space characters but found 0           indent
+  590:30   error  There should be no spaces inside this paren                      space-in-parens
+  590:66   error  There should be no spaces inside this paren                      space-in-parens
+  594:4    error  Block must not be padded by blank lines                          padded-blocks
+  596:3    error  Expected indentation of 2 space characters but found 0           indent
+  596:22   error  Block must not be padded by blank lines                          padded-blocks
+  598:4    error  Expected indentation of 2 space characters but found 0           indent
+  598:32   error  There should be no spaces inside this paren                      space-in-parens
+  598:49   error  There should be no spaces inside this paren                      space-in-parens
+  600:4    error  Block must not be padded by blank lines                          padded-blocks
+  602:3    error  Expected indentation of 2 space characters but found 0           indent
+  602:19   error  There should be no spaces inside this paren                      space-in-parens
+  602:23   error  There should be no spaces inside this paren                      space-in-parens
+  602:24   error  Block must not be padded by blank lines                          padded-blocks
+  604:4    error  Expected indentation of 2 space characters but found 0           indent
+  605:4    error  Expected indentation of 2 space characters but found 0           indent
+  607:4    error  Expected indentation of 2 space characters but found 0           indent
+  609:4    error  Block must not be padded by blank lines                          padded-blocks
+  611:3    error  Expected indentation of 2 space characters but found 0           indent
+  611:18   error  There should be no spaces inside this paren                      space-in-parens
+  611:25   error  There should be no spaces inside this paren                      space-in-parens
+  611:26   error  Block must not be padded by blank lines                          padded-blocks
+  613:4    error  Expected indentation of 2 space characters but found 0           indent
+  613:8    error  There should be no spaces inside this paren                      space-in-parens
+  613:26   error  There should be no spaces inside this paren                      space-in-parens
+  613:27   error  Block must not be padded by blank lines                          padded-blocks
+  615:5    error  Expected indentation of 2 space characters but found 0           indent
+  615:18   error  There should be no spaces inside this paren                      space-in-parens
+  615:108  error  There should be no spaces inside this paren                      space-in-parens
+  616:5    error  Expected indentation of 2 space characters but found 0           indent
+  616:28   error  There should be no spaces inside this paren                      space-in-parens
+  616:35   error  There should be no spaces inside this paren                      space-in-parens
+  618:5    error  Block must not be padded by blank lines                          padded-blocks
+  620:4    error  Expected indentation of 2 space characters but found 0           indent
+  621:4    error  Expected indentation of 2 space characters but found 0           indent
+  623:4    error  Expected indentation of 2 space characters but found 0           indent
+  625:4    error  Block must not be padded by blank lines                          padded-blocks
+  627:3    error  Expected indentation of 2 space characters but found 0           indent
+  627:24   error  There should be no spaces inside this paren                      space-in-parens
+  627:28   error  There should be no spaces inside this paren                      space-in-parens
+  627:29   error  Block must not be padded by blank lines                          padded-blocks
+  629:4    error  Expected indentation of 2 space characters but found 0           indent
+  630:4    error  Expected indentation of 2 space characters but found 0           indent
+  632:4    error  Expected indentation of 2 space characters but found 0           indent
+  634:4    error  Block must not be padded by blank lines                          padded-blocks
+  636:3    error  Expected indentation of 2 space characters but found 0           indent
+  636:25   error  There should be no spaces inside this paren                      space-in-parens
+  636:32   error  There should be no spaces inside this paren                      space-in-parens
+  636:33   error  Block must not be padded by blank lines                          padded-blocks
+  638:4    error  Expected indentation of 2 space characters but found 0           indent
+  639:4    error  Expected indentation of 2 space characters but found 0           indent
+  641:4    error  Expected indentation of 2 space characters but found 0           indent
+  643:4    error  Block must not be padded by blank lines                          padded-blocks
+  645:3    error  Expected indentation of 2 space characters but found 0           indent
+  645:30   error  There should be no spaces inside this paren                      space-in-parens
+  645:37   error  There should be no spaces inside this paren                      space-in-parens
+  645:38   error  Block must not be padded by blank lines                          padded-blocks
+  647:4    error  Expected indentation of 2 space characters but found 0           indent
+  648:4    error  Expected indentation of 2 space characters but found 0           indent
+  650:4    error  Expected indentation of 2 space characters but found 0           indent
+  652:4    error  Block must not be padded by blank lines                          padded-blocks
+  654:3    error  Expected indentation of 2 space characters but found 0           indent
+  654:18   error  There should be no spaces inside this paren                      space-in-parens
+  654:25   error  There should be no spaces inside this paren                      space-in-parens
+  654:26   error  Block must not be padded by blank lines                          padded-blocks
+  656:4    error  Expected indentation of 2 space characters but found 0           indent
+  656:8    error  There should be no spaces inside this paren                      space-in-parens
+  656:26   error  There should be no spaces inside this paren                      space-in-parens
+  656:27   error  Block must not be padded by blank lines                          padded-blocks
+  658:5    error  Expected indentation of 2 space characters but found 0           indent
+  658:18   error  There should be no spaces inside this paren                      space-in-parens
+  658:108  error  There should be no spaces inside this paren                      space-in-parens
+  659:5    error  Expected indentation of 2 space characters but found 0           indent
+  659:28   error  There should be no spaces inside this paren                      space-in-parens
+  659:35   error  There should be no spaces inside this paren                      space-in-parens
+  661:5    error  Block must not be padded by blank lines                          padded-blocks
+  663:4    error  Expected indentation of 2 space characters but found 0           indent
+  664:4    error  Expected indentation of 2 space characters but found 0           indent
+  666:4    error  Expected indentation of 2 space characters but found 0           indent
+  668:4    error  Block must not be padded by blank lines                          padded-blocks
+  670:3    error  Expected indentation of 2 space characters but found 0           indent
+  670:24   error  There should be no spaces inside this paren                      space-in-parens
+  670:28   error  There should be no spaces inside this paren                      space-in-parens
+  670:29   error  Block must not be padded by blank lines                          padded-blocks
+  672:4    error  Expected indentation of 2 space characters but found 0           indent
+  673:4    error  Expected indentation of 2 space characters but found 0           indent
+  675:4    error  Expected indentation of 2 space characters but found 0           indent
+  677:4    error  Block must not be padded by blank lines                          padded-blocks
+  679:3    error  Expected indentation of 2 space characters but found 0           indent
+  679:25   error  There should be no spaces inside this paren                      space-in-parens
+  679:32   error  There should be no spaces inside this paren                      space-in-parens
+  679:33   error  Block must not be padded by blank lines                          padded-blocks
+  681:4    error  Expected indentation of 2 space characters but found 0           indent
+  682:4    error  Expected indentation of 2 space characters but found 0           indent
+  684:4    error  Expected indentation of 2 space characters but found 0           indent
+  686:4    error  Block must not be padded by blank lines                          padded-blocks
+  688:3    error  Expected indentation of 2 space characters but found 0           indent
+  688:23   error  There should be no spaces inside this paren                      space-in-parens
+  688:27   error  There should be no spaces inside this paren                      space-in-parens
+  688:28   error  Block must not be padded by blank lines                          padded-blocks
+  690:4    error  Expected indentation of 2 space characters but found 0           indent
+  691:4    error  Expected indentation of 2 space characters but found 0           indent
+  693:4    error  Expected indentation of 2 space characters but found 0           indent
+  695:4    error  Block must not be padded by blank lines                          padded-blocks
+  697:3    error  Expected indentation of 2 space characters but found 0           indent
+  697:29   error  There should be no spaces inside this paren                      space-in-parens
+  697:38   error  There should be no spaces inside this paren                      space-in-parens
+  697:39   error  Block must not be padded by blank lines                          padded-blocks
+  699:4    error  Expected indentation of 2 space characters but found 0           indent
+  700:4    error  Expected indentation of 2 space characters but found 0           indent
+  702:4    error  Expected indentation of 2 space characters but found 0           indent
+  704:4    error  Block must not be padded by blank lines                          padded-blocks
+  706:3    error  Expected indentation of 2 space characters but found 0           indent
+  706:21   error  There should be no spaces inside this paren                      space-in-parens
+  706:25   error  There should be no spaces inside this paren                      space-in-parens
+  706:26   error  Block must not be padded by blank lines                          padded-blocks
+  708:4    error  Expected indentation of 2 space characters but found 0           indent
+  709:4    error  Expected indentation of 2 space characters but found 0           indent
+  711:4    error  Expected indentation of 2 space characters but found 0           indent
+  713:4    error  Block must not be padded by blank lines                          padded-blocks
+  715:3    error  Expected indentation of 2 space characters but found 0           indent
+  715:27   error  There should be no spaces inside this paren                      space-in-parens
+  715:36   error  There should be no spaces inside this paren                      space-in-parens
+  715:37   error  Block must not be padded by blank lines                          padded-blocks
+  717:4    error  Expected indentation of 2 space characters but found 0           indent
+  717:31   error  There should be no spaces inside this paren                      space-in-parens
+  717:44   error  There should be no spaces inside this paren                      space-in-parens
+  719:4    error  Block must not be padded by blank lines                          padded-blocks
+  721:3    error  Expected indentation of 2 space characters but found 0           indent
+  721:18   error  There should be no spaces inside this paren                      space-in-parens
+  721:22   error  There should be no spaces inside this paren                      space-in-parens
+  721:23   error  Block must not be padded by blank lines                          padded-blocks
+  723:4    error  Expected indentation of 2 space characters but found 0           indent
+  723:22   error  There should be no spaces inside this paren                      space-in-parens
+  723:36   error  There should be no spaces inside this paren                      space-in-parens
+  724:4    error  Expected indentation of 2 space characters but found 0           indent
+  724:22   error  There should be no spaces inside this paren                      space-in-parens
+  724:36   error  There should be no spaces inside this paren                      space-in-parens
+  726:4    error  Expected indentation of 2 space characters but found 0           indent
+  728:4    error  Block must not be padded by blank lines                          padded-blocks
+  730:3    error  Expected indentation of 2 space characters but found 0           indent
+  730:18   error  There should be no spaces inside this paren                      space-in-parens
+  730:22   error  There should be no spaces inside this paren                      space-in-parens
+  730:23   error  Block must not be padded by blank lines                          padded-blocks
+  732:4    error  Expected indentation of 2 space characters but found 0           indent
+  732:22   error  There should be no spaces inside this paren                      space-in-parens
+  732:36   error  There should be no spaces inside this paren                      space-in-parens
+  733:4    error  Expected indentation of 2 space characters but found 0           indent
+  733:22   error  There should be no spaces inside this paren                      space-in-parens
+  733:36   error  There should be no spaces inside this paren                      space-in-parens
+  735:4    error  Expected indentation of 2 space characters but found 0           indent
+  737:4    error  Block must not be padded by blank lines                          padded-blocks
+  739:3    error  Expected indentation of 2 space characters but found 0           indent
+  739:20   error  There should be no spaces inside this paren                      space-in-parens
+  739:31   error  There should be no spaces inside this paren                      space-in-parens
+  739:32   error  Block must not be padded by blank lines                          padded-blocks
+  743:4    error  Expected indentation of 2 space characters but found 0           indent
+  743:22   error  There should be no spaces inside this paren                      space-in-parens
+  743:39   error  There should be no spaces inside this paren                      space-in-parens
+  743:55   error  There should be no spaces inside this paren                      space-in-parens
+  743:57   error  There should be no spaces inside this paren                      space-in-parens
+  744:4    error  Expected indentation of 2 space characters but found 0           indent
+  744:22   error  There should be no spaces inside this paren                      space-in-parens
+  744:39   error  There should be no spaces inside this paren                      space-in-parens
+  744:55   error  There should be no spaces inside this paren                      space-in-parens
+  744:57   error  There should be no spaces inside this paren                      space-in-parens
+  746:4    error  Expected indentation of 2 space characters but found 0           indent
+  748:4    error  Block must not be padded by blank lines                          padded-blocks
+  750:3    error  Expected indentation of 2 space characters but found 0           indent
+  750:16   error  Wrap an immediate function invocation in parentheses             wrap-iife
+  750:28   error  Block must not be padded by blank lines                          padded-blocks
+  752:4    error  Expected indentation of 2 space characters but found 0           indent
+  753:4    error  Expected indentation of 2 space characters but found 0           indent
+  755:4    error  Expected indentation of 2 space characters but found 0           indent
+  755:31   error  Missing space before function parentheses                        space-before-function-paren
+  755:32   error  There should be no spaces inside this paren                      space-in-parens
+  755:49   error  There should be no spaces inside this paren                      space-in-parens
+  755:50   error  Block must not be padded by blank lines                          padded-blocks
+  757:5    error  Expected indentation of 2 space characters but found 0           indent
+  757:13   error  There should be no spaces inside this paren                      space-in-parens
+  757:30   error  There should be no spaces inside this paren                      space-in-parens
+  758:5    error  Expected indentation of 2 space characters but found 0           indent
+  758:13   error  There should be no spaces inside this paren                      space-in-parens
+  758:30   error  There should be no spaces inside this paren                      space-in-parens
+  760:5    error  Expected indentation of 2 space characters but found 0           indent
+  760:23   error  There should be no spaces inside this paren                      space-in-parens
+  760:34   error  There should be no spaces inside this paren                      space-in-parens
+  762:5    error  Block must not be padded by blank lines                          padded-blocks
+  764:4    error  Block must not be padded by blank lines                          padded-blocks
+  766:3    error  Expected indentation of 2 space characters but found 0           indent
+  766:26   error  There should be no spaces inside this paren                      space-in-parens
+  766:37   error  There should be no spaces inside this paren                      space-in-parens
+  766:38   error  Block must not be padded by blank lines                          padded-blocks
+  768:4    error  Expected indentation of 2 space characters but found 0           indent
+  770:4    error  Expected indentation of 2 space characters but found 0           indent
+  770:29   error  There should be no spaces inside this paren                      space-in-parens
+  770:43   error  There should be no spaces inside this paren                      space-in-parens
+  770:59   error  There should be no spaces inside this paren                      space-in-parens
+  770:69   error  There should be no spaces inside this paren                      space-in-parens
+  770:84   error  There should be no spaces inside this paren                      space-in-parens
+  770:98   error  There should be no spaces inside this paren                      space-in-parens
+  770:100  error  There should be no spaces inside this paren                      space-in-parens
+  770:102  error  There should be no spaces inside this paren                      space-in-parens
+  772:4    error  Block must not be padded by blank lines                          padded-blocks
+  774:3    error  Expected indentation of 2 space characters but found 0           indent
+  774:22   error  Block must not be padded by blank lines                          padded-blocks
+  776:4    error  Expected indentation of 2 space characters but found 0           indent
+  776:24   error  There should be no spaces inside this paren                      space-in-parens
+  776:33   error  There should be no spaces inside this paren                      space-in-parens
+  777:4    error  Expected indentation of 2 space characters but found 0           indent
+  777:24   error  There should be no spaces inside this paren                      space-in-parens
+  777:33   error  There should be no spaces inside this paren                      space-in-parens
+  779:4    error  Expected indentation of 2 space characters but found 0           indent
+  781:4    error  Block must not be padded by blank lines                          padded-blocks
+  783:3    error  Expected indentation of 2 space characters but found 0           indent
+  783:21   error  Block must not be padded by blank lines                          padded-blocks
+  785:4    error  Expected indentation of 2 space characters but found 0           indent
+  785:23   error  There should be no spaces inside this paren                      space-in-parens
+  785:32   error  There should be no spaces inside this paren                      space-in-parens
+  786:4    error  Expected indentation of 2 space characters but found 0           indent
+  786:23   error  There should be no spaces inside this paren                      space-in-parens
+  786:32   error  There should be no spaces inside this paren                      space-in-parens
+  788:4    error  Expected indentation of 2 space characters but found 0           indent
+  790:4    error  Block must not be padded by blank lines                          padded-blocks
+  792:3    error  Expected indentation of 2 space characters but found 0           indent
+  792:22   error  Block must not be padded by blank lines                          padded-blocks
+  794:4    error  Expected indentation of 2 space characters but found 0           indent
+  794:24   error  There should be no spaces inside this paren                      space-in-parens
+  794:33   error  There should be no spaces inside this paren                      space-in-parens
+  795:4    error  Expected indentation of 2 space characters but found 0           indent
+  795:24   error  There should be no spaces inside this paren                      space-in-parens
+  795:33   error  There should be no spaces inside this paren                      space-in-parens
+  797:4    error  Expected indentation of 2 space characters but found 0           indent
+  799:4    error  Block must not be padded by blank lines                          padded-blocks
+  801:3    error  Expected indentation of 2 space characters but found 0           indent
+  801:28   error  Block must not be padded by blank lines                          padded-blocks
+  803:4    error  Expected indentation of 2 space characters but found 0           indent
+  803:14   error  There should be no spaces inside this paren                      space-in-parens
+  803:27   error  There should be no spaces inside this paren                      space-in-parens
+  803:40   error  There should be no spaces inside this paren                      space-in-parens
+  803:49   error  There should be no spaces inside this paren                      space-in-parens
+  803:63   error  There should be no spaces inside this paren                      space-in-parens
+  803:72   error  There should be no spaces inside this paren                      space-in-parens
+  804:4    error  Expected indentation of 2 space characters but found 0           indent
+  804:14   error  There should be no spaces inside this paren                      space-in-parens
+  804:27   error  There should be no spaces inside this paren                      space-in-parens
+  804:40   error  There should be no spaces inside this paren                      space-in-parens
+  804:49   error  There should be no spaces inside this paren                      space-in-parens
+  804:63   error  There should be no spaces inside this paren                      space-in-parens
+  804:72   error  There should be no spaces inside this paren                      space-in-parens
+  806:4    error  Expected indentation of 2 space characters but found 0           indent
+  808:4    error  Block must not be padded by blank lines                          padded-blocks
+  810:3    error  Expected indentation of 2 space characters but found 0           indent
+  810:23   error  Block must not be padded by blank lines                          padded-blocks
+  812:4    error  Expected indentation of 2 space characters but found 0           indent
+  812:13   error  Unexpected space after unary operator "-"                        space-unary-ops
+  813:4    error  Expected indentation of 2 space characters but found 0           indent
+  813:13   error  Unexpected space after unary operator "-"                        space-unary-ops
+  815:4    error  Expected indentation of 2 space characters but found 0           indent
+  817:4    error  Block must not be padded by blank lines                          padded-blocks
+  819:3    error  Expected indentation of 2 space characters but found 0           indent
+  819:18   error  There should be no spaces inside this paren                      space-in-parens
+  819:22   error  There should be no spaces inside this paren                      space-in-parens
+  819:23   error  Block must not be padded by blank lines                          padded-blocks
+  821:4    error  Expected indentation of 2 space characters but found 0           indent
+  823:4    error  Block must not be padded by blank lines                          padded-blocks
+  825:3    error  Expected indentation of 2 space characters but found 0           indent
+  825:25   error  Block must not be padded by blank lines                          padded-blocks
+  827:4    error  Expected indentation of 2 space characters but found 0           indent
+  829:4    error  Block must not be padded by blank lines                          padded-blocks
+  831:3    error  Expected indentation of 2 space characters but found 0           indent
+  831:23   error  Block must not be padded by blank lines                          padded-blocks
+  833:4    error  Expected indentation of 2 space characters but found 0           indent
+  833:21   error  There should be no spaces inside this paren                      space-in-parens
+  833:57   error  There should be no spaces inside this paren                      space-in-parens
+  835:4    error  Block must not be padded by blank lines                          padded-blocks
+  837:3    error  Expected indentation of 2 space characters but found 0           indent
+  837:28   error  Missing space before function parentheses                        space-before-function-paren
+  837:31   error  Block must not be padded by blank lines                          padded-blocks
+  839:4    error  Expected indentation of 2 space characters but found 0           indent
+  839:20   error  There should be no spaces inside this paren                      space-in-parens
+  839:29   error  There should be no spaces inside this paren                      space-in-parens
+  839:41   error  There should be no spaces inside this paren                      space-in-parens
+  839:50   error  There should be no spaces inside this paren                      space-in-parens
+  841:4    error  Block must not be padded by blank lines                          padded-blocks
+  843:3    error  Expected indentation of 2 space characters but found 0           indent
+  843:26   error  Block must not be padded by blank lines                          padded-blocks
+  845:4    error  Expected indentation of 2 space characters but found 0           indent
+  845:29   error  There should be no spaces inside this paren                      space-in-parens
+  845:50   error  There should be no spaces inside this paren                      space-in-parens
+  847:4    error  Block must not be padded by blank lines                          padded-blocks
+  849:3    error  Expected indentation of 2 space characters but found 0           indent
+  849:22   error  Block must not be padded by blank lines                          padded-blocks
+  853:4    error  Expected indentation of 2 space characters but found 0           indent
+  853:27   error  There should be no spaces inside this paren                      space-in-parens
+  853:44   error  There should be no spaces inside this paren                      space-in-parens
+  855:4    error  Expected indentation of 2 space characters but found 0           indent
+  855:8    error  There should be no spaces inside this paren                      space-in-parens
+  855:20   error  There should be no spaces inside this paren                      space-in-parens
+  857:4    error  Expected indentation of 2 space characters but found 0           indent
+  859:4    error  Block must not be padded by blank lines                          padded-blocks
+  861:3    error  Expected indentation of 2 space characters but found 0           indent
+  861:25   error  There should be no spaces inside this paren                      space-in-parens
+  861:29   error  There should be no spaces inside this paren                      space-in-parens
+
+✖ 1094 problems

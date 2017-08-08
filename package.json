@@ -1,0 +1,45 @@
+{
+  "name": "webvr-samplw",
+  "version": "0.0.1",
+  "description": "A maze VR game based on A-Frame",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node ./scripts/budo",
+    "preghpages": "rm -rf gh-pages && cp -r examples/ gh-pages && cp -r pages/ gh-pages",
+    "ghpages": "npm run preghpages && ghpages -p gh-pages && rm -rf gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daoshengmu/aframe-lesson.git"
+  },
+  "keywords": [
+    "vr",
+    "mozvr",
+    "webvr"
+  ],
+  "author": "Daosheng Mu <daoshengmu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daoshengmu/aframe-lesson/issues"
+  },
+  "homepage": "https://github.com/daoshengmu/aframe-lesson#readme",
+  "devDependencies": {
+    "budo": "^8.1.0",
+    "browserify": "^11.0.1",
+    "ghpages": "^0.0.5",
+    "ray-input": "^0.1.2",
+    "semistandard": "^7.0.2",
+    "snazzy" : "^3.0.0",
+    "three": "^0.75.0",
+    "webvr-ui":"^0.10.0"
+  },
+  "semistandard": {
+    "ignore": [
+      "examples/dist/**",
+      "examples/mazeVR/**",
+      "examples/basicScene/**",
+      "gh-pages/**",
+      "pages/**"
+    ]
+  }
+}
