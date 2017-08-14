@@ -30,7 +30,7 @@
     "ray-input": "^0.1.2",
     "semistandard": "^7.0.2",
     "snazzy" : "^3.0.0",
-    "three": "^0.75.0",
+    "three": "^0.84.0",
     "webvr-ui":"^0.10.0"
   },
   "semistandard": {

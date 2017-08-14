@@ -92,13 +92,13 @@ document.addEventListener('touchmove', function(e) {
         // mesh = new THREE.Mesh( geometry, material );
         // scene.add( mesh );
         // Create 3D objects.
-        var geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
+        var geometry = new THREE.SphereBufferGeometry(5, 5, 5);
         var material = new THREE.MeshNormalMaterial();
-        var cube = new THREE.Mesh(geometry, material);
+        var sphere = new THREE.Mesh(geometry, material);
         // Position cube mesh
-        cube.position.z = -1;
+        sphere.position.z = -10;
         // Add cube mesh to your three.js scene
-        scene.add(cube);
+        scene.add(sphere);
 
         // Initialize VR
         // Apply VR headset positional data to camera.
@@ -121,7 +121,6 @@ document.addEventListener('touchmove', function(e) {
         //         //vrDisplay.requestAnimationFrame(animate);
         //     }
         // });
-        //window.location.href = 'sceneA.html';
     }
     function onWindowResize() {
         camera.aspect = window.innerWidth / window.innerHeight;
