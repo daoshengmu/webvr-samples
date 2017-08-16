@@ -2,40 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   </head>
-    <body>
-		<div id="container"></div>
-    </body>
 </html>
 <style>
-#container {
-    position: absolute;
-    z-index: -10;      /* position this canvas on bottom of the other one */
-}
 body {
     color: #808080;
     font-family:Monospace;
-    font-size:13px;
+    font-size: 13px;
     /* text-align:center; */
     background-color: #fff;
     margin: 0px;
     overflow: hidden;
 }
+canvas {
+  position: absolute;
+  top: 0;
+}
 </style>
-<!-- <div id="container"></div> -->
+<script>
+WebVRConfig = {
+  MOUSE_KEYBOARD_CONTROLS_DISABLED: false,
+  BUFFER_SCALE: 1.0,
+};
+
+document.addEventListener('touchmove', function(e) {
+  e.preventDefault();
+});
+</script>
 <script src="../../node_modules/three/build/three.js"></script>
 <script src="../../node_modules/three/examples/js/effects/VREffect.js"></script>
 <script src="../../node_modules/webvr-polyfill/build/webvr-polyfill.js"></script>
 <script src="../../node_modules/three/examples/js/controls/VRControls.js"></script>
 <script src="../../node_modules/webvr-ui/build/webvr-ui.js"></script>
-<script>
-WebVRConfig = {
-  MOUSE_KEYBOARD_CONTROLS_DISABLED: false
-};
-document.addEventListener('touchmove', function(e) {
-  e.preventDefault();
-});
-</script>
 <script>
     var camera, scene, renderer;
     var texture_placeholder,
@@ -53,18 +55,17 @@ document.addEventListener('touchmove', function(e) {
     init();
     animate();
     function init() {
-        var container, mesh;
-        container = document.getElementById('container');
+        var mesh;
         camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 10000 );
-        //camera.target = new THREE.Vector3( 0, 0, 0 );
-        camera.position.z = 0.4;
         scene = new THREE.Scene();
     
-        renderer = new THREE.WebGLRenderer();
-        renderer.setPixelRatio( window.devicePixelRatio );
+        // Setup three.js WebGL renderer. Note: Antialiasing is a big performance hit.
+        // Only enable it if you actually need to.
+        renderer = new THREE.WebGLRenderer({antialias: false});
+        renderer.setPixelRatio(Math.floor(window.devicePixelRatio));
         renderer.setSize( window.innerWidth, window.innerHeight );
         renderer.setClearColor( 0xffffff ); 
-        container.appendChild( renderer.domElement );
+        document.body.appendChild(renderer.domElement);
         
         // Interactive control
         // document.addEventListener( 'mousedown', onDocumentMouseDown, false );
@@ -72,8 +73,8 @@ document.addEventListener('touchmove', function(e) {
         // document.addEventListener( 'mouseup', onDocumentMouseUp, false );
         // document.addEventListener( 'wheel', onDocumentMouseWheel, false );
         //
-        window.addEventListener( 'resize', onWindowResize, false );
-        
+        window.addEventListener( 'resize', onWindowResize);
+        window.addEventListener('vrdisplaypresentchange', onVRDisplayPresentChange);
         // Load video and play
         // var video = document.createElement( 'video' );
         // video.width = 640;
@@ -123,11 +124,18 @@ document.addEventListener('touchmove', function(e) {
         // });
         //window.location.href = 'sceneA.html';
     }
+
     function onWindowResize() {
+        vrEffect.setSize(window.innerWidth, window.innerHeight);
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
-        vrEffect.setSize(window.innerWidth, window.innerHeight);
     }
+
+    function onVRDisplayPresentChange() {
+      console.log('onVRDisplayPresentChange');
+      onWindowResize();
+    }
+
     function onDocumentMouseDown( event ) {
         event.preventDefault();
         isUserInteracting = true;
