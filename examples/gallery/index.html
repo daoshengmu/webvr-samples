@@ -7,6 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   </head>
+  <body></body>
 </html>
 <style>
 html, body {
@@ -78,7 +79,7 @@ Otherwise, Enter VR button will not work on mobile. -->
         renderer = new THREE.WebGLRenderer({antialias: false});
         renderer.setPixelRatio(Math.floor(window.devicePixelRatio));
         renderer.setSize(window.innerWidth, window.innerHeight);
-        renderer.setClearColor(0xffff00); 
+        renderer.setClearColor(0xffffff);
         document.body.appendChild(renderer.domElement);
         
         window.addEventListener('resize', onWindowResize);

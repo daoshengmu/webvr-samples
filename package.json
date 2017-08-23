@@ -1,7 +1,7 @@
 {
   "name": "webvr-sample",
   "version": "0.0.1",
-  "description": "A maze VR game based on A-Frame",
+  "description": "WebVR samples for cross-platform.",
   "main": "index.html",
   "scripts": {
     "dev": "node ./scripts/budo",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daoshengmu/aframe-lesson.git"
+    "url": "git+https://github.com/daoshengmu/webvr-sample.git"
   },
   "keywords": [
     "vr",
