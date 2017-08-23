@@ -11,8 +11,9 @@ function execCmd (cmd) {
 }
 
 var consts = {
-  NAME: 'MAZEVR',
+  NAME: 'webvr-sample',
   WATCH: 'examples/**/*',  // Additional files to watch for LiveReload
+  ENTRY: 'examples/main.js',
   PORT: 9005
 };
 
