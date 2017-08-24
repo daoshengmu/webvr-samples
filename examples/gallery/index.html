@@ -83,8 +83,6 @@ Otherwise, Enter VR button will not work on mobile. -->
         document.body.appendChild(renderer.domElement);
         
         window.addEventListener('resize', onWindowResize);
-        window.addEventListener('vrdisplaypresentchange',
-                                onVRDisplayPresentChange);
 
         materials.push(new THREE.MeshBasicMaterial({
             map: new THREE.TextureLoader().load( 'resource/puydesancy.jpg' )
