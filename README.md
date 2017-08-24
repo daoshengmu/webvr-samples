@@ -8,6 +8,6 @@ The examples for developing WebVR in Javascript.
 
 To start the local development server:
 
-	npm run dev
+	npm start
 
 And fire up [`http://localhost:9005`](http://localhost:9005)!

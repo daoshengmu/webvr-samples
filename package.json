@@ -4,7 +4,7 @@
   "description": "WebVR samples for cross-platform.",
   "main": "index.html",
   "scripts": {
-    "dev": "node ./scripts/budo",
+    "start": "node ./scripts/budo",
     "preghpages": "rm -rf gh-pages && cp -r examples/ gh-pages && cp -r pages/ gh-pages",
     "ghpages": "npm run preghpages && ghpages -p gh-pages && rm -rf gh-pages"
   },
@@ -14,7 +14,6 @@
   },
   "keywords": [
     "vr",
-    "mozvr",
     "webvr"
   ],
   "author": "Daosheng Mu <daoshengmu@gmail.com>",
@@ -28,14 +27,13 @@
     "browserify": "^11.0.1",
     "ghpages": "^0.0.5",
     "ray-input": "^0.1.2",
-    "semistandard": "^7.0.2",
+    "semistandard": "^8.0.0",
     "snazzy" : "^3.0.0",
     "three": "^0.84.0",
-    "webvr-ui":"^0.10.0"
+    "webvr-ui": "^0.10.0"
   },
   "semistandard": {
     "ignore": [
-      "examples/dist/**",
       "gh-pages/**",
       "pages/**"
     ]
