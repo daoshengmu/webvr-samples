@@ -2,7 +2,6 @@
 /* eslint-disable new-cap */
 
 let camera, scene, renderer;
-let materials = [];
 let vrControls, vrEffect, vrDisplay, enterVR;
 let mainSphere, tb1Mesh, tb2Mesh, tb3Mesh;
 let rayInput;
@@ -26,6 +25,7 @@ function init () {
 
   window.addEventListener('resize', onWindowResize);
 
+  let materials = [];
   materials.push(new THREE.MeshBasicMaterial({
     map: new THREE.TextureLoader().load('resource/puydesancy.jpg')
   }));
@@ -35,6 +35,13 @@ function init () {
   materials.push(new THREE.MeshBasicMaterial({
     map: new THREE.TextureLoader().load('resource/lake.jpg')
   }));
+
+  // Show paranoma in WebGL
+  let geometry = new THREE.SphereGeometry(500, 60, 40);
+  geometry.scale(-1, 1, 1);
+
+  mainSphere = new THREE.Mesh(geometry, materials[0].clone());
+  scene.add(mainSphere);
 
   // Thumbnails
   let tb1 = new THREE.SphereGeometry(0.5, 60, 40);
@@ -52,19 +59,13 @@ function init () {
   tb3Mesh.position.set(1, -1, -3);
   scene.add(tb3Mesh);
 
-  // Show paranoma in WebGL
-  let geometry = new THREE.SphereGeometry(500, 60, 40);
-  geometry.scale(-1, 1, 1);
-
-  mainSphere = new THREE.Mesh(geometry, materials[0].clone());
-  scene.add(mainSphere);
-
   // Initialize VR
   // Apply VR headset positional data to camera.
   vrControls = new THREE.VRControls(camera);
   vrEffect = new THREE.VREffect(renderer);
   vrEffect.setSize(window.innerWidth, window.innerHeight);
 
+  // Show VR button on screen.
   let options = {};
   enterVR = new webvrui.EnterVRButton(renderer.domElement, options);
   document.body.appendChild(enterVR.domElement);
@@ -112,6 +113,7 @@ function createRayInput () {
     mesh.material.color = DEFAULT_COLOR;
   });
 
+  // Add selectable objects to RayInput
   rayInput.add(tb1Mesh);
   rayInput.add(tb2Mesh);
   rayInput.add(tb3Mesh);
@@ -133,14 +135,20 @@ function animate () {
     rayInput.update();
   }
 
+  // Update controller positional data.
   vrControls.update();
 
+  // If in the present mode, go to stereo rendering,
+  // else back to the general rendering.
   if (enterVR.isPresenting()) {
     vrEffect.render(scene, camera);
   } else {
     renderer.render(scene, camera);
   }
 
+  // In vrDisplay.RAFs, it's update rate will be
+  // hardware VSYNC time. (On Oculus / Vive HMD are 90 HZ,
+  // istead of window's 60 HZ.)
   if (vrDisplay) {
     vrDisplay.requestAnimationFrame(animate);
   } else {
