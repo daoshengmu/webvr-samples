@@ -1,10 +1,10 @@
-# webvr-sample
+# webvr-examples
 The examples for developing WebVR in Javascript.
 
 ## Installation and Development
 
-	git clone git@github.com:daoshengmu/webvr-sample.git
-	cd webvr-sample && npm install
+	git clone git@github.com:daoshengmu/webvr-examples.git
+	cd webvr-examples && npm install
 
 To start the local development server:
 
