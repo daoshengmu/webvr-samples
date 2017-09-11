@@ -15,9 +15,14 @@ function init () {
   scene = new THREE.Scene();
 
   // Setup three.js WebGL renderer.
-  // Note: Antialiasing-enabled on mobile
-  // will make renderer creation failed.
-  renderer = new THREE.WebGLRenderer({antialias: false});
+  // Note: Antialiasing-enabled on mobile makes renderer creation failed.
+  // Disable AA makes 2D view is black when presenting on desktop.
+  let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    renderer = new THREE.WebGLRenderer({antialias: false});
+  } else {
+    renderer = new THREE.WebGLRenderer({antialias: true});
+  }
   renderer.setPixelRatio(Math.floor(window.devicePixelRatio));
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setClearColor(0xffffff);
