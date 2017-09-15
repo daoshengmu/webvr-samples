@@ -2,7 +2,7 @@
 /* eslint-disable new-cap */
 
 let camera, scene, renderer;
-let vrControls, vrEffect, vrDisplay, enterVR;
+let vrControls, vrEffect, enterVR;
 let mainSphere, tb1Mesh, tb2Mesh, tb3Mesh;
 let rayInput;
 
@@ -75,16 +75,7 @@ function init () {
   enterVR = new webvrui.EnterVRButton(renderer.domElement, options);
   document.body.appendChild(enterVR.domElement);
 
-  enterVR.getVRDisplay().then((displays) => {
-    if (displays.length > 0) {
-      vrDisplay = displays[0];
-    }
-    createRayInput();
-  }).catch(() => {
-    // no vr display
-    createRayInput();
-  });
-
+  createRayInput();
   animate();
 }
 
@@ -129,6 +120,9 @@ function onWindowResize () {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
 
+  renderer.domElement.style.width = window.innerWidth + 'px';
+  renderer.domElement.style.height = window.innerHeight + 'px';
+
   if (rayInput) {
     rayInput.setSize(renderer.getSize());
   }
@@ -154,8 +148,8 @@ function animate () {
   // In vrDisplay.RAFs, it's update rate will be
   // hardware VSYNC time. (On Oculus / Vive HMD are 90 HZ,
   // istead of window's 60 HZ.)
-  if (vrDisplay) {
-    vrDisplay.requestAnimationFrame(animate);
+  if (vrEffect) {
+    vrEffect.requestAnimationFrame(animate);
   } else {
     window.requestAnimationFrame(animate);
   }
